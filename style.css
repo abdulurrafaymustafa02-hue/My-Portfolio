@@ -1,0 +1,271 @@
+body {
+  padding: 0;
+  margin: 0;
+  background-color: black;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Navbar */
+#navbar {
+  position: sticky;
+  top: 0;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.329);
+  z-index: 10;
+}
+
+#navset {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2px 20px;
+  background-color: rgba(0, 0, 0, 0.925);
+  width: 70rem;
+  margin: auto;
+}
+
+#name {
+  color: aquamarine;
+  cursor: pointer;
+}
+
+#name:hover {
+  color: white;
+}
+
+#navbar ul {
+  display: flex;
+}
+.navitem {
+  list-style: none;
+  margin: 0px 20px;
+}
+
+.navitem a {
+  color: white;
+  text-decoration: none;
+}
+
+.navitem a:hover {
+  color: aquamarine;
+}
+
+.dov {
+  color: white;
+}
+
+#intro {
+  height: 500px;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.329);
+}
+#introset {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  width: 50rem;
+  height: 500px;
+  margin: 80px auto;
+}
+
+#myname {
+  font-size: 56px;
+  font-weight: 500;
+  margin: 10px 0px;
+}
+
+#sentance {
+  font-size: 24px;
+  font-weight: 300;
+  font-style: italic;
+  color: aquamarine;
+  margin: 10px 0px;
+}
+
+#intropara {
+  color: grey;
+  width: 42rem;
+  margin: 10px 0px;
+}
+#introbtn {
+  margin: 50px 2px;
+}
+
+/* Skills & Technologies */
+
+#skill {
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.329);
+  height: 25rem;
+  background-color: #080808;
+}
+
+#skill h4 {
+  color: aquamarine;
+  position: relative;
+}
+
+#language {
+  margin: 100px 80px;
+  margin-left: 0px;
+  position: relative;
+  bottom: 110px;
+}
+
+.languages {
+  padding: 8px 15px;
+}
+
+.languages:hover {
+  color: aquamarine;
+}
+
+.heading {
+  padding: 20px 15px;
+  color: grey;
+}
+
+#tools {
+  margin: 100px 80px;
+}
+
+.tools {
+  padding: 8px 15px;
+}
+.tools:hover {
+  color: aquamarine;
+}
+
+/* Projects */
+#projects {
+  height: 45rem;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.329);
+}
+
+#projectset {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 100px;
+}
+
+#projectset h1 {
+  align-self: flex-start;
+  width: 46rem;
+  margin: auto;
+  margin-bottom: 45px;
+  color: aquamarine;
+}
+#projectset div {
+  width: 40rem;
+  height: 10rem;
+  margin: 10px;
+  border: 1px solid white;
+  border-radius: 10px;
+}
+/* Contact */
+
+#contact {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 500px;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.329);
+  background-color: #080808;
+}
+
+#contact h3 {
+  color: aquamarine;
+  margin: 0;
+}
+#contact p {
+  color: grey;
+}
+#contact div {
+  color: grey;
+}
+#contact div a {
+  text-decoration: none;
+  color: white;
+}
+#contact div a:hover {
+  color: aquamarine;
+}
+
+/* Footer */
+
+footer {
+  font-family: "Poppins", sans-serif;
+  font-size: large;
+  color: grey;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100px;
+}
+/* Utility Classes */
+.navfont {
+  font-family: "Poppins", sans-serif;
+  font-size: large;
+}
+
+.introfont {
+  font-family: "Poppins", sans-serif;
+  font-size: large;
+}
+
+.skillfont {
+  font-family: "Poppins", sans-serif;
+  font-size: 25px;
+}
+.projectsfont {
+  font-family: "Poppins", sans-serif;
+  font-size: large;
+}
+
+.contactfont {
+  font-family: "Poppins", sans-serif;
+  font-size: 25px;
+}
+
+/* btn */
+.fullbtn {
+  background-color: aquamarine;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 8px;
+  font-size: 15px;
+  font-weight: 500;
+  cursor: pointer;
+  text-decoration: none;
+  color: black;
+}
+.fullbtn:hover {
+  background-color: rgba(127, 255, 212, 0.658);
+}
+
+.clearbtn {
+  background-color: black;
+  border: 1px solid grey;
+  border-radius: 8px;
+  padding: 8px 15px;
+  margin: 10px;
+  cursor: pointer;
+  color: white;
+  font-size: 15px;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.clearbtn:hover {
+  background-color: aquamarine;
+  color: black;
+}
